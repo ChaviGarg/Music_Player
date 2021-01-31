@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:padding="20dp"
+    android:layout_height="fill_parent"
+>
+	<ImageView
+		android:id="@+id/mp3"
+		android:layout_width="65dp"
+		android:layout_height="65dp"
+		android:background="@drawable/musical"
+	/>
+    <TextView
+		android:textStyle="bold"
+		android:layout_marginTop="6dp"
+		android:layout_marginLeft="80dp"
+		android:text="Title"
+		android:textSize="15dp"
+		android:id="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	/>
+	<TextView
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="80dp"
+		android:text="Title"
+		android:textSize="13dp"
+		android:id="@+id/num1"
+		android:layout_below="@+id/title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	/>
+</RelativeLayout>
